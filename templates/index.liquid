@@ -1,0 +1,163 @@
+{% block content %} 
+
+  <section class="first-section padding-60" id="home">	
+    <div class="row">
+
+      <div class="row">
+        <div class="large-offset-1 medium-5 small-12 columns">
+          <img src="assets/images/logo.png">
+        </div>
+        <div class="large-6 medium-7 columns show-for-medium-up" id="nav-menu">
+          <ul class="menu-list">
+            <li><a href="#home">Home</a></li>
+            <li class="padding-left-20"><a href="#images">Images</a></li>
+            <li class="padding-left-20"><a href="#projects">Projects</a></li>
+            <li class="padding-left-20"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-10 large-offset-1  small-12 columns left padding-top-60">
+          <h1>Hello.</h1>
+          <P>
+            I'm William Cooke a Canadian fine art photographer, printmaker, and graphic designer. If you'd like to see more of my work or if you're interested in hiring me, please check out my side projects below.
+          </P>
+        </div>
+        <div class="large-6 large-offset-1 columns left show-for-medium-up padding-top-20">
+          <a href="#images"><img src="assets/images/view-my-work.png"></a>
+          <a href="http://blog.william-cooke.com"><img src="assets/images/visit_my_blog.png" class="padding-left-60"></a>
+        </div>
+        <div class="small-12 show-for-small-only padding-left-20">
+          <a href="http://blog.william-cooke.com"><img src="assets/images/visit_my_blog.png"></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="padding-60 show-for-medium-up" id="images"> 
+    <div class="row negative-margin">
+      <div class="medium-3 columns">
+        <img src="assets/images/zoe.jpg" alt="Zoe">
+      </div>
+      <div class="medium-3 medium-offset-3 columns">
+        <img src="assets/images/emily.jpg" alt="Emily">
+      </div>
+      <div class="medium-3 columns show-for-medium-up">
+        <img src="assets/images/graffitti.jpg" alt="Graffitti">
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-3 columns">
+        <img src="assets/images/post-box.jpg" alt="Post-Box">
+      </div>
+      <div class="medium-6 columns end">
+        <img src="assets/images/parking-meters.jpg" alt="Parking-Meter">
+      </div>
+    </div>
+  </section>
+
+  <section class="second-section" id="projects"> 
+    <div class="row">
+      <div class="large-12 column">
+
+        <div class="row">
+
+          <div class="medium-4 columns padding-top-60 padding-bottom-60">
+            <div>
+              <img src="assets/images/w-photo_logo.png">
+            </div>
+            <div class="padding-top-60 padding-right-20">
+              <P>
+              W-Photo is my brand for all my photography related projects. I am a part-time professional photographer with many years of experience in both digital and analog media. I have studied under several master printmakers and have the skills needed to make your work stand out.
+              </P>
+            </div>
+            <div class="padding-top-20">
+              <a href="http://w-photo.ca"><img src="assets/images/go_to_site.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="medium-4 columns padding-top-60 padding-bottom-60">
+            <div>
+              <img src="assets/images/w-labs_logo.png">
+            </div>
+            <div class="padding-top-60 padding-right-20">
+              <br><br>
+              <P>
+              W-Labs is a repository for experimental projects that may eventually see the light of day. All projects on the site are beta or potentially even still in alpha. It is also the site and brand that I work under while helping clients with branding or any other non-photography related projects.
+              </P>
+            </div>
+            <div class="padding-top-20">
+              <a href="http://w-photo.ca"><img src="assets/images/go_to_site.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="medium-4 columns padding-top-60 padding-bottom-60">
+            <div>
+              <img src="assets/images/w-network_logo.png">
+            </div>
+            <div class="padding-top-60">
+              <P>
+              W-Network is my hosting platform for any projects that I am working on. It holds client work as well as my own work that is private and public. If you need any hosting or web work this is the place where you'll find those services.
+              </P>
+              <br><br><br>
+            </div>
+            <div class="padding-top-20">
+              <a href="http://w-photo.ca"><img src="assets/images/go_to_site.png" alt=""></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>  
+  </section>
+
+  <section id="contact">
+
+    <div class="row">
+      <div class="small-12 columns">
+        <div class="small-4 columns centered-img padding-top-60">
+          <a href="http://twitter.com/tux889"><img src="assets/images/twitter.png" alt=""></a>
+        </div>
+        <div class="small-4 columns centered-img padding-top-60">
+          <a href="http://www.behance.net/wphotography"><img src="assets/images/behance.png" alt=""></a>
+        </div>
+        <div class="small-4 columns centered-img padding-top-60">
+          <a href="http://www.linkedin.com/pub/william-cooke/42/3a3/b9b"><img src="assets/images/linkedin.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row padding-top-60">
+      <div class="small-8 small-centered columns">
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-1 medium-offset-3 columns padding-top-60">
+          <img src="assets/images/mail.png">
+        </div>
+
+        <div class="medium-5 columns left padding-top-60 padding-bottom-60">
+
+          <form method="post" action="assets/php/contactengine.php" class="margin-top">
+          <label for="Name">Name:</label>
+          <input type="text" name="Name" id="Name" />
+            
+          <label for="Email">Email:</label>
+          <input type="text" name="Email" id="Email" />
+          
+          <label for="Message">Message:</label><br />
+          <textarea name="Message" rows="10" cols="20" id="Message"></textarea>
+
+          <input type="submit" name="submit" value="Submit" class="button secondary" />
+          </form>
+
+        </div>
+    </div>
+  </section>
+
+{% endblock %}
